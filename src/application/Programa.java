@@ -1,11 +1,14 @@
 package application;
 
+import jogotabuleiro.Posicao;
+
 public class Programa {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Iniciando projeto");
-
+		Posicao p = new Posicao(3, 5);
+		System.out.println(p);
+		
 	}
 
 }
